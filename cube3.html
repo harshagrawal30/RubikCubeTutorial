@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="rubics.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no;">
+    <title>3*3 Rubik Cube Method</title>
+     <!--bootstrap css framwork-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous">
+  <!--jquery cdn-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+  <!--icons-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+  crossorigin="anonymous"></script>
+  <!--bootstrap Javascript-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+  crossorigin="anonymous"></script>
+</head>
+<!--NAV BAR-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color:lightyellow;">
+  <div class="navbar-brand"><b style="color:lightslategrey;">IQ Blaster Presents</b><br><h5 
+    style="color:darkcyan;">&nbsp;&nbsp; Rubik-Cube Tutorial</h5> </div>
+  <button id="option" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rubiktypes.html">Rubik Cube Types</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Learn Particular Cube.
+        </a>
+        <div class="dropdown-menu " style="background-color: burlywood;border-radius: 3%;" aria-labelledby="navbarDropdown">
+         
+<a class="dropdown-item disabled" href="#">2*2Rubik Cube <p id="com2" style="float: right;">coming soon</p></a>
+<a class="dropdown-item " href="cube3.html">3*3Rubik Cube</a>
+<a class="dropdown-item disabled" href="#">4*4Rubik Cube <p id="com2" style="float: right;">coming soon</p></a>
+<a class="dropdown-item disabled" href="#">5*5Rubik Cube<p id="com1" style="float: right;">coming soon</p></a>
+           <a class="dropdown-item disabled" href="#">Megamix cube<p id="com2" style="float: right;">coming soon</p></a>
+          <a class="dropdown-item disabled" href="#">Mirror Cube<p id="com1" style="float: right;">coming soon</p></a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#foo" tabindex="-1" aria-disabled="true">About Us</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<body   style=" margin-left: 5%;margin-top:25%;">
+  <h4>Solve 3*3 Rubik Cube with fun by below steps</h4>
+  <br>
+<!--collapse-->
+<!--button 1-->
+<div id="con">
+
+  <button id="btn1" style="margin: 5%;" class="btn btn-success" data-toggle="collapse" href="#multiCollapseExample1" type="button" 
+  aria-expanded="false" aria-controls="multiCollapseExample1">1.Solving First Layer </button>
+
+
+<div class="col">
+  <!--layer 1-->
+ 
+  <div class="row">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne1">
+              <h5 class="mb-0">
+                 <!--step 1-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" 
+                aria-controls="collapseOne1">
+                 Step 1:The Daisy Flower
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1" data-parent="#accordion">
+              <div class="card-body">
+               <p> Find the yellow center dot and you're ready to start solving the 1st layer.</p>
+                <ul>
+<li>To start solving, make the "Daisy Flower" on the yellow face.</li>
+<li>The yellow face has the yellow center dot.</li>
+<li>Move the 4 white edges to the yellow face as shown below.</li>
+<li>The color of the corner stickers do not matter.</li>
+                  <li>Watch the video below for an example solve of the Daisy Flower.</li>
+                </ul>
+                <iframe  id="vid2" src="https://www.youtube.com/embed/WE8ZJb-iQJM"
+                 frameborder="0"height="220" width="112%" allowfullscreen="allowfullscreen"  ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo2">
+              <h5 class="mb-0">
+                 <!--step 2-->
+                <button class="btn  collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true"
+                 aria-controls="collapseTwo2">
+                  Step 2: The White Cross
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion">
+              <div class="card-body">
+               <p> Now you just need to move those four white edges to the white face, and line them up with the blue, red, 
+                 green, and orange center dots.
+<br>
+             That will complete the "White Cross." The video below shows an example</p>
+             <iframe  id="vid2" src="https://www.youtube.com/embed/9gqL5uwKggQ"
+             frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree3">
+              <h5 class="mb-0">
+                 <!--step 3-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="true" 
+                aria-controls="collapseThree3">
+                 Step 3:Corners With White Stickers
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion">
+              <div class="card-body">
+                <ul>
+<li>To finish the 1st layer, the corners with the white stickers need to be put into place.</li>
+<li>For this, and from this point on, you can keep the white face on the left side of the cube.</li>
+<li>There are 4 corners with white stickers, and they can be put into place 1 of 3 ways.</li>
+<li> Below  is an example video.</li>
+                </ul>
+                <iframe  id="vid2" src="https://www.youtube.com/embed/xrRp_-4Yl6U"
+                frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--button 2-->
+  <!--layer 2-->
+ <p>
+   <button style="margin: 1%;" class="btn btn-success" type="button" data-toggle="collapse"
+    data-target="#multiCollapseExample2" aria-expanded="true" aria-controls="multiCollapseExample2">
+   2.Solving Second Layer</button>
+  </p>
+  
+  <div class="row">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <p  data-toggle="collapse"  aria-expanded="true" >
+                  To complete the second layer, the 4 edges that do not have a yellow sticker need to be put in-between the 
+                  center dots in the 2nd layer (blue, red, green, and orange).
+
+                  They can be put into place 1 of 3 ways as shown in video
+                   example.
+                </p>
+              </h5>
+            </div>
+            <div class="card-header" id="headingOne11">
+               <!--step 1-->
+              <h5 class="mb-0">
+                <button class="btn collapsed " data-toggle="collapse" data-target="#collapseOne11" aria-expanded="true" 
+                aria-controls="collapseOne11">
+                 Step 1: First Two Layers: Inserting the Edges (Case 1)
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne11" class="collapse " aria-labelledby="headingOne11" data-parent="#accordion">
+              <div class="card-body">
+               Below, the green/orange edge is on top, lined up with the green center dot.
+                 It needs to be moved toward you and to your left. <br><br>
+                 <iframe  id="vid2" src="https://www.youtube.com/embed/B7RQ0n4Fipw"
+                 frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo22">
+              <h5 class="mb-0">
+                 <!--step 2-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo22" aria-expanded="true"
+                aria-controls="collapseTwo22">
+                  Step 2: First Two Layers:Inserting the Edges (Case 2)
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo22" class="collapse" aria-labelledby="headingTwo22" data-parent="#accordion">
+              <div class="card-body">
+                In this video, below, the blue/orange edge is on the front, lined up with the blue center dot. It 
+                needs to be moved up and to your left. <br><br>
+                <iframe  id="vid2" src="https://www.youtube.com/embed/DBlQKG4f_W8"
+                frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree33">
+              <h5 class="mb-0">
+                <!--step 3-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree33" 
+                aria-expanded="true" aria-controls="collapseThree33">
+                  Step 3:First Two Layers: Inserting the Edges (Case 3)
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree33" class="collapse" aria-labelledby="headingThree33" data-parent="#accordion">
+              <div class="card-body">
+                Shown in the video below, this is a case that does not happen as often as the others, and takes a 
+                few more moves to solve. The green/red edge is already in place, and it needs to be flipped.
+                 <br><br>
+                <iframe  id="vid2" src="https://www.youtube.com/embed/eY8azp73h7o"
+                frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<!--button 3-->
+<!--layer 3-->
+  <button style="margin:1%;margin-bottom: 5%;" class="btn btn-success" data-toggle="collapse"
+   href="#multiCollapseExample3"
+  type="button" 
+  aria-expanded="true" aria-controls="multiCollapseExample3">1.Solving Third i.e. Last Layer </button>
+  <div class="row">
+    <div class="collapse multi-collapse" id="multiCollapseExample3">
+      <div class="card card-body">
+        <div id="accordion">
+          <div class="card">
+            
+            <div class="card-header" id="headingOne111">
+              <h5 class="mb-0">
+                <!--step 1-->
+                <button class="btn collapsed " data-toggle="collapse" data-target="#collapseOne111" aria-expanded="true" 
+                aria-controls="collapseOne111">
+                 Step 1: The Yellow Cross
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne111" class="collapse " aria-labelledby="headingOne111" data-parent="#accordion">
+              <div class="card-body">
+                The "Yellow Cross" is the first thing to make for the 3rd layer!
+<br>
+You're only looking at the yellow stickers on the yellow face, specifically the edges only.
+ The colors on the 4 corners do not matter, and neither does the 2nd color of the yellow edges.
+ <br><br>
+<h5>Case 1: You have only one yellow sticker at the center</h5>
+
+   <p>Watch the video</p> 
+  
+   <iframe  id="vid2" src="https://www.youtube.com/embed/JcExHMQ27bg"
+   frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+   
+<h5>Case 2: You have three yellow sticker forming L shape</h5>
+<p>Watch the video</p>
+           <h5>Case 3:You have three yellow sticker in a straight line"</h5>
+           <p>Watch the video</p>
+           <iframe  id="vid2" src="https://www.youtube.com/embed/dPJeZ0YTznU"
+           frameborder="0" height="220" width="112%" allowfullscreen="allowfullscreen" ></iframe>
+          
+</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo222">
+              <h5 class="mb-0">
+                <!--step 2-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo222" aria-expanded="true"
+                aria-controls="collapseTwo222">
+                Step 2: Align the Yellow Cross with adjacent center stickers
+                </button>
+              </h5>
+              <div id="collapseTwo222" class="collapse" aria-labelledby="headingTwo222" data-parent="#accordion">
+                <div class="card-body">
+                <p style="font-style: italic;">At least one will get align</p>
+               <h5>Case 1:You have only 1 sticker aligned at right place</h5>
+               <p>Watch the video</p>
+               <h5>Case 2:You have 2 stickers aligned at right place but at opposite faces</h5>
+               <p>Watch the video</p>
+               <h5>Case 3:You have 2 stickers aligned at right place but are at adjacent faces</h5>
+<p>Watch the video</p>
+</div>
+            </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <!--step 3-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree333" 
+                aria-expanded="true" aria-controls="collapseThree333">
+                  Step 3:Placing all the four corners at right positions
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree333" class="collapse" aria-labelledby="headingThree333" data-parent="#accordion">
+              <div class="card-body">
+               <h5>Case 1:No corner pieces are at tight position</h5>
+               <p>Watch the video</p>
+               <h5>Case 2:Atleast one corner is at right position</h5>
+               <p>Watch the video</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour444">
+              <h5 class="mb-0">
+                <!--step 4-->
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour444" 
+                aria-expanded="true" aria-controls="collapseFour444">
+                  Step 4:Twisting the corners
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour444" class="collapse" aria-labelledby="headingFour444" data-parent="#accordion">
+              <div class="card-body">
+               <h5>Case 1:Only one corner is at correct orientation</h5>
+               <p>Watch the video</p>
+               <h5>Case 2:Two corner making correct orientation diagonaly</h5>
+               <p>Watch the video</p>
+               <h5>Case 3:Two corner making correct orientation at same face</h5>
+               <p>Watch the video</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
