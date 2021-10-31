@@ -63,12 +63,12 @@ text-decoration: underline;
  
 }
 
-#ylogo:hover,#logo:hover,#cl:hover{
+/*#ylogo:hover,#logo:hover,#cl:hover{
   height: 20px;
   width: 20px;
  background-color: none;
-
 }
+*/
 #ylogo{
   height:25px;
   width:35px;
